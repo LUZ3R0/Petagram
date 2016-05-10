@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main">
+    <item
+    android:id="@+id/misFavoritos"
+    android:title="Favoritos"
+    android:orderInCategory="1"
+    app:showAsAction="always"
+    android:icon="@drawable/star_hotel_48"/>
+</menu>
