@@ -1,15 +1,18 @@
 package comceleluengo.fb.petagram;
 
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import java.util.ArrayList;
 import java.util.List;
+import comceleluengo.fb.petagram.adaptadores.AnimalesAdapter;
+import comceleluengo.fb.petagram.pojo.Animales;
 
 public class MisFavoritos extends AppCompatActivity {
 
+    private Toolbar toolbar;
     private RecyclerView recycler;
     private RecyclerView.Adapter adapter;
     private RecyclerView.LayoutManager lManager;
@@ -19,13 +22,23 @@ public class MisFavoritos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mis_favoritos);
 
+        toolbar = (Toolbar)findViewById(R.id.toolbar);
+
+        if (toolbar!=null){
+            setSupportActionBar(toolbar);
+        }
+
         //botón de subir
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        //Icono
+        //cambiamos el título de appbar
+        getSupportActionBar().setTitle("    Mis mascotas favoritas");
+
+        //Agregamos el Icono
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.drawable.cat);
 
+        //Inicializamos los datos del ArrayList
         List<Animales> items = new ArrayList<>();
 
         items.add(new Animales(R.drawable.jerry, "Jerry", 0,0));

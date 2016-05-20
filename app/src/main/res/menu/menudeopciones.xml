@@ -5,9 +5,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".Main">
     <item
-    android:id="@+id/misFavoritos"
-    android:title="Favoritos"
-    android:orderInCategory="1"
-    app:showAsAction="always"
-    android:icon="@drawable/star_hotel_48"/>
+        android:id="@+id/misFavoritos"
+        android:title="Favoritos"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/star_hotel_48"/>
+    <item
+        android:id="@+id/contacto"
+        android:title="@string/contacto"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/acercade"
+        android:title="@string/acerca"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
 </menu>

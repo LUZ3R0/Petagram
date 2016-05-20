@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Petagram</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contacto">Contacto</string>
+    <string name="acerca">Acerca De</string>
+    <string name="nombre">Celeste Daniela Luengo</string>
+    <string name="boton">Enviar Comentario</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="email">Email</string>
+    <string name="nometiqueta">Nombre</string>
+    <string name="cartel">Envie su comentario</string>
+    <string name="mibio">Nací el 12 de julio de 1993 en la Ciudad Autónoma de Bs As, actualmente vivo en Lincoln -Prov. de Bs As (Argentina). En 2015 me recibí de Tec. Superior en Análisis de Sistemas. Me encanta programar, a eso me dedico en mi tiempo libre. </string>
 </resources>

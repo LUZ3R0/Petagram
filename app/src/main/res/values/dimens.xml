@@ -4,4 +4,13 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="action_bar">4dp</dimen>
     <dimen name="ancho_card">490dp</dimen>
+    <dimen name="ancho_foto">300dp</dimen>
+    <dimen name="alto_foto">350dp</dimen>
+    <dimen name="padding_desc">80dp</dimen>
+    <dimen name="top_desc">40dp</dimen>
+    <dimen name="top_foto">25dp</dimen>
+    <dimen name="top_nombre">15dp</dimen>
+    <dimen name="imgcircular">250dp</dimen>
+    <dimen name="mgtop_imagen">20dp</dimen>
+    <dimen name="fotbiografia">400dp</dimen>
 </resources>
